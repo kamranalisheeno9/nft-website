@@ -3,7 +3,7 @@ import { Col, Container, Row, Carousel } from 'react-bootstrap';
 import './Home.css'
 const Home = (props) => {
     return (
-        <Container className='home-container'>
+        <Container className='home-container' id="home">
             <Row style={{ textAlign: "center", alignItems: "center", justifyContent: "center" }}>
                 <Col xl={5} lg={6} xs={11}>
                     <div className='theme-heading'>Welcome To<br />
@@ -16,7 +16,7 @@ const Home = (props) => {
 
                         Each piece is <span> a unique 3D artwork </span> with a collection of more than <span> 150+ traits.</span> The objective is to build the strongest community and project around NFTs.
                     </p>
-                    <a href='' className='buy-btn join-us ' >JOIN US</a>
+                    <a href='https://discord.com/invite/lordsociety' target="_blank" className='buy-btn join-us ' >JOIN US</a>
 
                 </Col>
                 <Col xl={5} lg={6}>

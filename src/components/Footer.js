@@ -12,7 +12,7 @@ const Footer = (props) => {
                     Become A Lord<br />
                     Join Our Discord
                 </h1>
-                <a href='' className='buy-btn'>Join Now</a>
+                <a href='https://discord.com/invite/lordsociety' target="_blank" className='buy-btn' >Join Now</a>
 
             </Container>
                 
@@ -21,9 +21,9 @@ const Footer = (props) => {
                 <p className='rights-text'>© 2021 Lord Society - NFT. All rights reserved.</p>
 
                 <ul className='nav-list ul-icon-links'>
-                        <li className='header-link-icon'><a href=''><BsInstagram /></a></li>
-                        <li className='header-link-icon'><a href=''><AiFillTwitterSquare /></a></li>
-                        <li className='header-link-icon'><a href=''><BsDiscord /></a></li>
+                        <li className='header-link-icon'><a href='https://www.instagram.com/lordsocietynft/' target="_blank"><BsInstagram /></a></li>
+                        <li className='header-link-icon'><a href='https://twitter.com/lordsociety_nft' target="_blank"><AiFillTwitterSquare /></a></li>
+                        <li className='header-link-icon'><a href='https://discord.com/invite/lordsociety' target="_blank"><BsDiscord /></a></li>
 
                     </ul>
 

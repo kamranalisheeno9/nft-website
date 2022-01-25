@@ -4,7 +4,7 @@ import { Col, Container, Row, Carousel } from 'react-bootstrap';
 import './About.css'
 const About=(props)=> {
     return (
-        <Container>
+        <Container id="about">
              <Row style={{ alignItems: "center", justifyContent: "center" }}>
              <Col xl={5} lg={6}>
                    <Row>

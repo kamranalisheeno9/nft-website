@@ -4,7 +4,7 @@ import { Col, Container, Row, Carousel } from 'react-bootstrap';
 
 const Artist = (props) => {
     return (
-        <Container>
+        <Container id="artist">
             <Row style={{ alignItems: "center", justifyContent: "center" }}>
             <Col md={8} xs={12} style={{textAlign:"center"}} >
                     <div className='theme-heading'>The Artist</div>

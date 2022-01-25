@@ -93,4 +93,10 @@ body {
   .main-text {
     margin-top: -20px;
   }
+  .buy-btn{
+    font-size: 25px;
+  }
+  .main-text {
+    font-size: 18px;
+  }
 }
