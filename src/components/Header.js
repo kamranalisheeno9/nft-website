@@ -23,7 +23,7 @@ const Header = (props) => {
                         <li className='header-link'><a href=''>About Us</a></li>
                         <li className='header-link'><a href=''>Roadmap</a></li>
                         <li className='header-link'><a href=''>Out Artist</a></li>
-                        <li className='header-link'><a href=''>FAQ</a></li>
+                        <li className='header-link faq'><a href=''>FAQ</a></li>
                     </ul>
 
                 </Col>
@@ -48,7 +48,7 @@ const Header = (props) => {
              <li className='header-link'><a href=''>About Us</a></li>
              <li className='header-link'><a href=''>Roadmap</a></li>
              <li className='header-link'><a href=''>Out Artist</a></li>
-             <li className='header-link'><a href=''>FAQ</a></li>
+             <li className='header-link faq'><a href=''>FAQ</a></li>
          </ul>
 
      </div>
