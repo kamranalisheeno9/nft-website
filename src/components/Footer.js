@@ -7,14 +7,14 @@ import './Footer.css'
 const Footer = (props) => {
     return (
         <div>
-            <div className='become-text'>
+            <Container className='become-text'>
                 <h1 className='become-header'>
                     Become A Lord<br />
                     Join Our Discord
                 </h1>
                 <a href='' className='buy-btn'>Join Now</a>
 
-            </div>
+            </Container>
                 
             <Container className='rights-container'>
                 <img height="47px" src='https://lordsocietynft.com/static/media/logo_footer.dd11ea2b8dc0160eaa82.png' alt='' />
