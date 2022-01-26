@@ -3,7 +3,7 @@ import { Container, Accordion } from 'react-bootstrap';
 import './Faq.css'
 const Faq = (props) => {
     return (
-        <Container className='faq-header' >
+        <Container className='faq-header' id="faq" >
             <h1 className='theme-heading '>FAQ</h1>
             <Accordion>
                 <Accordion.Item eventKey="0">

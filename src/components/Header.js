@@ -21,9 +21,9 @@ const Header = (props) => {
                         <ul className='nav-list'>
                             <li className='header-link'><a href='#home' >Home</a></li>
                             <li className='header-link'><a href='#about'>About Us</a></li>
-                            <li className='header-link'><a href=''>Roadmap</a></li>
+                            <li className='header-link'><a href='#roadmap'>Roadmap</a></li>
                             <li className='header-link'><a href='#artist'>Out Artist</a></li>
-                            <li className='header-link faq'><a href=''>FAQ</a></li>
+                            <li className='header-link faq'><a href='#faq'>FAQ</a></li>
                         </ul>
 
                     </Col>
@@ -46,9 +46,9 @@ const Header = (props) => {
                 <ul className={displayNav ? 'nav-list-responsive' : 'no-display'}>
                     <li className='header-link'><a href='#home' onClick={() => setDisplayNav(false)}>Home</a></li>
                     <li className='header-link'><a href='#about' onClick={() => setDisplayNav(false)}>About Us</a></li>
-                    <li className='header-link'><a href='' onClick={() => setDisplayNav(false)}>Roadmap</a></li>
+                    <li className='header-link'><a href='#roadmap' onClick={() => setDisplayNav(false)}>Roadmap</a></li>
                     <li className='header-link'><a href='#artist' onClick={() => setDisplayNav(false)}>Out Artist</a></li>
-                    <li className='header-link faq'><a href='' onClick={() => setDisplayNav(false)}>FAQ</a></li>
+                    <li className='header-link faq'><a href='#faq' onClick={() => setDisplayNav(false)}>FAQ</a></li>
                 </ul>
 
             </div>
