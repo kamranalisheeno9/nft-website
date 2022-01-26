@@ -7,8 +7,12 @@ import About from './pages/About'
 import Artist from './pages/Artist'
 import FAQ from './pages/Faq'
 import Roadmap from './pages/Roadmap'
+import Countdown from './components/Coutdown'
 import { Col, Container, Row } from 'react-bootstrap';
+import { useState } from 'react';
+
 function App() {
+  const [mint,setMint]=useState(1)
   return (
     <div className="App">
       <Header />
@@ -19,7 +23,11 @@ function App() {
               <img className='main-img' src='https://lordsocietynft.com/static/media/c1.dd772cc4294a24aa0fbc.png' alt='nft' />
             </Col>
             <Col xl={5} lg={6}>
-              <p className='main-text'>Collection Is SOLD OUT, but you can buy your Lords on Opensea</p>
+              <p className='main-text'> How many do you want to mint <Countdown />
+              <input type="number" value={mint} onChange={(e)=>setMint(e.target.value)} style={{width:"150px"}} />
+              
+               </p>
+              <button href='' target="_blank" className='Mint-btn'>MINT</button><br />
               <a href='https://opensea.io/collection/lordsocietynft-v2' target="_blank" className='buy-btn'>BUY ON OPENSEA</a>
             </Col>
           </Row>
