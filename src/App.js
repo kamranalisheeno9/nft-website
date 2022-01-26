@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Artist from './pages/Artist'
 import FAQ from './pages/Faq'
+import Roadmap from './pages/Roadmap'
 import { Col, Container, Row } from 'react-bootstrap';
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </div>
       <Home  />
       <About />
+      <Roadmap />
       <Artist />
       <FAQ />
       <Footer />
