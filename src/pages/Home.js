@@ -24,7 +24,7 @@ const Home = (props) => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 carousel-img"
-                                src="https://lordsocietynft.com/static/media/c2.8583ba13f8d921eadc1d.png"
+                                src="https://static.vecteezy.com/system/resources/previews/032/325/417/original/3d-cartoon-character-cute-student-kids-boy-dancing-isolated-on-transparent-background-file-cut-out-ai-generated-png.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
@@ -32,7 +32,7 @@ const Home = (props) => {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 carousel-img"
-                                src="https://lordsocietynft.com/static/media/c3.fcb75f38f18bb00b9571.png"
+                                src="https://static.vecteezy.com/system/resources/previews/032/325/193/original/3d-cartoon-character-cute-student-kids-boy-dancing-isolated-on-transparent-background-file-cut-out-ai-generated-png.png"
                                 alt="First slide"
                             />
                         </Carousel.Item>
