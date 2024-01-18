@@ -13,9 +13,7 @@ const Header = (props) => {
             <div className='header-container'>
                 <Row className='header-row'>
                     <Col md={2} xs={2}>
-                        <a>
-                            <img className='logo-img' src='https://lordsocietynft.com/static/media/logo.dbe8a92678af6bea61aa.png' alt='logo' />
-                        </a>
+                  
                     </Col>
                     <Col className='nav-links' md={7} lg={7}>
                         <ul className='nav-list'>
