@@ -20,7 +20,7 @@ function App() {
         <Container className='main-container'>
           <Row className='main-row'>
             <Col xl={5} lg={6}>
-              <img className='main-img' src='https://lordsocietynft.com/static/media/c1.dd772cc4294a24aa0fbc.png' alt='nft' />
+              <img className='main-img' src='https://static.vecteezy.com/system/resources/previews/029/713/317/original/3d-cartoon-of-a-little-boy-running-happily-little-boy-jumping-with-a-happy-expression-generative-ai-png.png' alt='nft' />
             </Col>
             <Col xl={5} lg={6}>
               <p className='main-text'> How many do you want to mint <Countdown />
